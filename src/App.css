@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: #337ab7;
   color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.item_header {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.header_info {
+  margin: 0 10px;
+}
+
+.header_title {
+  color: #337ab7;
+  font-weight: bold;
+}
+
+.header_subtitle {
+  color: grey;
+  font-size: 12px;
+}
+
+.header_desc {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.header_created {
+  margin-left: 5px;
+}
+
+.item_text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.post_item {
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.btn_edit {
+  margin-right: 5px;
+}
+
+.btn_delete {
+  background-color: rgb(172, 4, 4);
+}
+
+.input_text {
+  width: 400px;
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.btn_post {
+  margin-right: 5px;
+}
+
+.btn_close {
+  background-color: rgb(172, 4, 4);
 }
