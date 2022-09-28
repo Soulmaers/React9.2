@@ -2,7 +2,7 @@ import React from "react";
 import moment from "moment";
 import { useEffect, useState } from "react";
 import { useParams } from 'react';
-import { useNavigate } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -16,7 +16,7 @@ export default function ViewPost() {
 
     useEffect(() => {
         get();
-    })
+    }, [])
 
 
 

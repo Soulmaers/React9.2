@@ -12,7 +12,7 @@ export default function HomePage() {
             .then((res) => setPosts(res))
 
 
-    })
+    },[])
 
 
     return (
